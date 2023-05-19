@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #CC0000;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
