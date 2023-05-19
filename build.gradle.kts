@@ -40,3 +40,10 @@ dependencies {
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
 }
+
+tasks.jar {
+    enabled = false
+    manifest {
+        attributes["Main-Class"] = "com.fazlyev.Application"
+    }
+}
