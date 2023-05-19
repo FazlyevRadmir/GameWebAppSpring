@@ -1,2 +1,2 @@
-rootProject.name = "java_2k2s"
+rootProject.name = "GameWebAppSpring"
 
