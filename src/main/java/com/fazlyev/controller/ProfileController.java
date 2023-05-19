@@ -26,6 +26,9 @@ public class ProfileController {
         User user = userService.getCurrentUser();
         Profile profile = user.getProfile();
         String city = "";
+        if (profile != null && profile.getCity() != null) {
+            city = profile.getCity();
+        }
         model.addAttribute("username", user.getUsername());
         model.addAttribute("firstName", user.getFirstName());
         model.addAttribute("secondName", user.getSecondName());
